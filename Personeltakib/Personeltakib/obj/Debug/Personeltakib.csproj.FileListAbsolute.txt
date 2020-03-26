@@ -1,0 +1,10 @@
+c:\users\adige\documents\visual studio 2012\Projects\Personeltakib\Personeltakib\bin\Debug\Personeltakib.exe.config
+c:\users\adige\documents\visual studio 2012\Projects\Personeltakib\Personeltakib\bin\Debug\Personeltakib.exe
+c:\users\adige\documents\visual studio 2012\Projects\Personeltakib\Personeltakib\bin\Debug\Personeltakib.pdb
+c:\users\adige\documents\visual studio 2012\Projects\Personeltakib\Personeltakib\obj\Debug\Personeltakib.csprojResolveAssemblyReference.cache
+c:\users\adige\documents\visual studio 2012\Projects\Personeltakib\Personeltakib\obj\Debug\Personeltakib.Form1.resources
+c:\users\adige\documents\visual studio 2012\Projects\Personeltakib\Personeltakib\obj\Debug\Personeltakib.Properties.Resources.resources
+c:\users\adige\documents\visual studio 2012\Projects\Personeltakib\Personeltakib\obj\Debug\Personeltakib.csproj.GenerateResource.Cache
+c:\users\adige\documents\visual studio 2012\Projects\Personeltakib\Personeltakib\obj\Debug\Personeltakib.exe
+c:\users\adige\documents\visual studio 2012\Projects\Personeltakib\Personeltakib\obj\Debug\Personeltakib.pdb
+C:\Users\Adige\documents\visual studio 2012\Projects\Personeltakib\Personeltakib\obj\Debug\Personeltakib.Form2.resources
