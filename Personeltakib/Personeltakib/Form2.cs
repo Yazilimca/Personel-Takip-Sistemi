@@ -66,10 +66,7 @@ namespace Personeltakib
 
         }
 
-        private void tabPage1_Click(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void Form2_Load(object sender, EventArgs e)
         {
@@ -211,11 +208,7 @@ namespace Personeltakib
         }
         int parola_skoru = 0;
 
-        private void textBox11_KeyPress(object sender, KeyPressEventArgs e)
-        {
-
-        }
-
+      
         private void textBox11_TextChanged(object sender, EventArgs e)
         {
             string parola_seviyesi = "";
@@ -357,7 +350,7 @@ namespace Personeltakib
                     try
                     {
                         baglanti.Open();
-                        OleDbCommand eklemekomutu = new OleDbCommand("inset into kullanicilar values('" + textBox7.Text + "','" + textBox8.Text + "', '" + textBox9.Text + "','" + yetki + "', '" + textBox9.Text + "', '" + textBox10.Text + "', '" + textBox11.Text + "')", baglanti);
+                        OleDbCommand eklemekomutu = new OleDbCommand("insert into kullanicilar values('" + textBox7.Text + "','" + textBox8.Text + "', '" + textBox9.Text + "','" + yetki + "', '" + textBox9.Text + "', '" + textBox10.Text + "', '" + textBox11.Text + "')", baglanti);
                         eklemekomutu.ExecuteNonQuery();
                         baglanti.Close();
                          MessageBox.Show("Yeni kullanıcı kaydı oluşturuldu!", "Personel Takip Programı", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
@@ -394,7 +387,8 @@ namespace Personeltakib
             if (textBox7.Text.Length == 11)
             {
                 baglanti.Open();
-                OleDbCommand selectsorgu = new OleDbCommand("select * from kullanicilar where tcno='" + textBox7.Text + "'", baglanti);
+                OleDbCommand selectsorgu = new OleDbCommand("select * from kullanicilar where tcno=@tcno", baglanti);
+                selectsorgu.Parameters.AddWithValue("@tcno", textBox7.Text);
                 OleDbDataReader kayitokuma = selectsorgu.ExecuteReader();
                 while (kayitokuma.Read())
                 {
@@ -526,11 +520,7 @@ namespace Personeltakib
             topPage_temizle();
         }
 
-        private void tabPage2_Click(object sender, EventArgs e)
-        {
-
-        }
-
+    
         private void button1_Click(object sender, EventArgs e)
         {
             OpenFileDialog resimsec = new OpenFileDialog();

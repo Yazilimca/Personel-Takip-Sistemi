@@ -181,7 +181,7 @@
             this.tabPage2.Size = new System.Drawing.Size(625, 419);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Kullanıcı İşlemleri";
-            this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
+           
             // 
             // label22
             // 
@@ -394,7 +394,7 @@
             this.textBox11.Size = new System.Drawing.Size(143, 20);
             this.textBox11.TabIndex = 19;
             this.textBox11.TextChanged += new System.EventHandler(this.textBox11_TextChanged);
-            this.textBox11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox11_KeyPress);
+          
             // 
             // textBox10
             // 
@@ -537,7 +537,7 @@
             this.tabPage1.Size = new System.Drawing.Size(625, 419);
             this.tabPage1.TabIndex = 2;
             this.tabPage1.Text = "Personel İşlemleri";
-            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+     
             // 
             // button11
             // 
